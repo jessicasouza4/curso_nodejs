@@ -2,3 +2,8 @@ create table noticias ( id_noticia int not null primary key auto_increment, titu
 
 insert into noticias(titulo, noticia) values ('titulo da noticia', 'conteudo da noticia');
 insert into noticias(titulo, noticia) values ('titulo da outra noticia', 'conteudo da outra noticia');
+
+alter table noticias add column resumo varchar(100);
+alter table noticias add column autor varchar(30);
+alter table noticias add column data_noticia date;
+
