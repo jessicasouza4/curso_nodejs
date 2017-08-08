@@ -1,0 +1,26 @@
+{
+  "name": "multiroom_chat",
+  "version": "1.0.0",
+  "description": "Projeto pratico nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicasouza4/curso_nodejs.git"
+  },
+  "author": "Jessica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicasouza4/curso_nodejs/issues"
+  },
+  "homepage": "https://github.com/jessicasouza4/curso_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-validator": "^3.2.1"
+  }
+}
