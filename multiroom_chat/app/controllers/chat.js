@@ -9,7 +9,6 @@ module.exports.iniciaChat = function(apllication, req, res){
 
 	if(erros){
 		res.render('index', {validacao : erros})
-		res.send('Exitem erros no formulário');
 		return;
 	}
 
